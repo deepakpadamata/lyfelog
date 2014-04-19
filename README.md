@@ -1,4 +1,0 @@
-lyfelog
-=======
-
-lyfelog homepage
