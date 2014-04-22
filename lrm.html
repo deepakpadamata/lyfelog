@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+</script>
+<script>
+	$(document).ready(function(){
+	  $("button").click(function(){
+    	$("#textdiv").animate({
+      	left:'100px',
+    });
+    	$("#mypic").animate({
+      	left:'700px',
+    });
+  });
+});
+</script>
+<style type="text/css">
+	#wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+</style>
+</head>
+<body>	
+<div id= "wrapper">
+	<button>Start Animation</button>
+	<div id= "picdiv" ><img id= "mypic" src="N5.png" class="picdiv" style="height: 300px; position: absolute ; left: 100px; top: 100px; z-index: 10;"></img></div>
+	<div id= "textdiv" style = "background:#98bf21 ; height: 300px; width: 600px; position: absolute ; top: 100px; left:300px;">Lorem ipsum</div>
+</div>
+</body>
+</html>
